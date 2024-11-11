@@ -1,0 +1,314 @@
+/* style.css */
+
+/* Couleurs et typographie */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Section Hero */
+  .hero {
+    background-image: url('image/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+  }
+  
+  /* Textes de titres */
+  h2 {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Cards pour les réalisations */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  /* Styles pour les membres de l'équipe */
+  .team img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .team h4 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: white;
+  }
+  
+  footer a {
+    color: #bbb;
+    text-decoration: none;
+  }
+  /* Fixer la taille pour les images de services */
+.services img {
+    width: 100%; /* Ajuste la largeur au conteneur */
+    height: 200px; /* Hauteur fixe */
+    object-fit: cover; /* Recadre pour remplir la hauteur et la largeur sans distorsion */
+    border-radius: 8px; /* Pour un style arrondi */
+  }
+  
+  /* Fixer la taille pour les images de membres de l'équipe */
+  .team img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Remplit le cadre sans distorsion */
+    border-radius: 50%; /* Pour des images circulaires */
+  }
+
+  .index img {
+    width: 100%; /* Ajuste la largeur au conteneur */
+    height: 200px; /* Hauteur fixe */
+    object-fit: cover; /* Recadre pour remplir la hauteur et la largeur sans distorsion */
+    border-radius: 8px; /* Pour un style arrondi */
+  }
+  hr {
+    border: 0;
+    border-top: 2px solid #007bff; /* Ligne bleue */
+    margin: 40px 0; /* Espacement avant et après la ligne */
+    width: 80%; /* Largeur de la ligne */
+    margin-left: auto; /* Centrer la ligne */
+    margin-right: auto; /* Centrer la ligne */
+  }
+/* Bordure entre les sections */
+.services {
+    border-bottom: 2px solid #007bff; /* Bordure bleue */
+    padding-bottom: 30px; /* Espacement sous la section */
+  }
+  
+  .team {
+    border-bottom: 2px solid #007bff; /* Bordure bleue */
+    padding-bottom: 30px; /* Espacement sous la section */
+  }
+  section {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    margin-bottom: 40px; /* Espacement entre les sections */
+    padding: 20px;
+  }
+  section {
+    margin-bottom: 50px; /* Espacement vertical entre chaque section */
+  }
+        /* Style pour la section "À propos" */
+.about {
+    background-color: #f8f9fa; /* Couleur de fond claire */
+    padding: 60px 0; /* Espacement autour du contenu */
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Style pour l'image à côté du texte */
+  .about img {
+    border-radius: 8px;
+  }
+  
+  /* Style pour la section "Qui sommes-nous" */
+  .who-we-are {
+    background-color: #ffffff; /* Fond blanc */
+    padding: 60px 0;
+  }
+  
+  .who-we-are h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .who-we-are h3 {
+    color: #007bff;
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+  
+  .who-we-are p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  /* Style pour la section Réalisations */
+.realisation {
+    background-color: #f8f9fa; /* Fond clair pour la section */
+    padding: 60px 0;
+  }
+  
+  .realisation h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style pour les images du carrousel */
+  .carousel-inner img {
+    border-radius: 8px; /* Coins arrondis pour les images */
+    object-fit: cover; /* S'assure que l'image couvre toute la zone sans déformation */
+    height: 400px; /* Fixe la hauteur des images */
+  }
+  
+  /* Optionnel : pour ajouter un fond de couleur à la section */
+  .realisation {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  /* Style pour la section Réalisations */
+.realisation {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  .realisation h2 {
+    font-size: 3rem; /* Taille du titre */
+    font-family: 'Arial', sans-serif; /* Police du titre */
+    font-weight: bold;
+    color: #007bff; /* Couleur bleue pour le titre */
+    text-align: center;
+    text-transform: uppercase; /* Met le texte en majuscules */
+    letter-spacing: 2px; /* Espacement entre les lettres */
+  }
+  
+  .realisation p {
+    font-size: 1.1rem; /* Taille du texte normal */
+    font-family: 'Georgia', serif; /* Police du texte */
+    color: #555555; /* Couleur gris foncé pour le texte */
+    line-height: 1.8; /* Espacement entre les lignes */
+    text-align: justify; /* Justifie le texte pour une présentation propre */
+    margin-top: 20px;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Fond sombre transparent pour la légende des images */
+    color: #fff; /* Texte blanc */
+    padding: 15px;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre du texte */
+  }
+  .realisation h2 {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Ombre légère autour du texte */
+  }
+  .realisation h2:hover {
+    color: #ff6600; /* Changer la couleur du titre au survol */
+    cursor: pointer; /* Change le curseur pour indiquer qu'il est cliquable */
+  }
+  .realisation h2 {
+    margin-bottom: 30px; /* Ajouter de l'espace en dessous du titre */
+  }
+  
+  .realisation p {
+    margin-top: 20px; /* Ajouter de l'espace au-dessus du texte */
+  }
+  .realisation {
+    background-color: #f4f4f4; /* Fond léger pour la section */
+    padding: 60px 0;
+  }
+  
+  .realisation h2 {
+    background-color: #8d8e8f; /* Fond bleu pour le titre */
+    color: white;
+    padding: 10px;
+    border-radius: 5px; /* Coins arrondis */
+  }
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .realisation h2 {
+    animation: slideIn 1s ease-out; /* Animation du titre */
+  }
+  .carousel-caption {
+    font-size: 1.4rem; /* Taille de la légende */
+    text-align: center; /* Centrer la légende */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Ombre autour du texte de la légende */
+  }
+/* Style pour la section Réalisations */
+.realisation {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  .realisation h2 {
+    font-size: 3rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+  }
+  
+  .realisation p {
+    font-size: 1.1rem;
+    font-family: 'Georgia', serif;
+    color: #555555;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Animation de titre */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .realisation h2 {
+    animation: slideIn 1s ease-out;
+  }
+  
+  /* Personnalisation des images du carrousel */
+  .carousel-inner img {
+    border-radius: 8px;
+    object-fit: cover;
+    height: 400px;
+  }
+                
